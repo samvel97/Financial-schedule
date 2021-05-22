@@ -1,0 +1,58 @@
+body {
+  background-color: #f1f3f4ff;
+}
+ul {
+  margin: 0;
+}
+li {
+  border-right: 1px solid;
+  border-top: 1px solid black;
+  list-style-type: none;
+  width: 25px;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.541);
+  background-color: #fff;
+}
+
+.inputs {
+  width: 20%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 15px;
+  height: 30px;
+  outline: none;
+  border: none;
+}
+input:focus {
+  border: 1px solid rgba(0, 116, 124, 0.315);
+}
+.content {
+  width: 50%;
+  margin: 40px auto;
+}
+.month {
+  display: flex;
+}
+.table {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-left: 40px;
+  background-color: #fff;
+}
+
+.schedule {
+  border-right: 1px solid;
+  width: 25px;
+  height: 200px;
+}
+
+.graphSchedule {
+  background-color: silver;
+  width: 25px;
+  border-right: 1px solid grey;
+  border-top: 1px solid rgba(66, 164, 245, 0.678);
+}
